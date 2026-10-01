@@ -15,7 +15,7 @@ az extension add --name application-insights --only-show-errors >/dev/null 2>&1 
 # --- Configuration -----------------------------------------------------------
 SUFFIX="${SUFFIX:-$(openssl rand -hex 4)}"
 RESOURCE_GROUP="${RESOURCE_GROUP:-foundry-hackathon-rg-$SUFFIX}"
-LOCATION="${LOCATION:-swedencentral}"
+LOCATION="${LOCATION:-germanywestcentral}"
 FOUNDRY_RESOURCE_NAME="${FOUNDRY_RESOURCE_NAME:-foundry-hack-$SUFFIX}"
 PROJECT_NAME="${PROJECT_NAME:-factory-project}"
 MODEL_DEPLOYMENT_NAME="${MODEL_DEPLOYMENT_NAME:-gpt-5.4}"
